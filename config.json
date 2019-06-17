@@ -20,7 +20,7 @@
     "pools": [
         {
             "url": "pool.graft.spacepools.org:3333",
-            "user": "G4cD7Uo1K7KYQ7WSijnNNnFM2SaWmmTkpfwkeAA6DPn4ZZ1wiVWBuWrDVH3rLLiuGCDrYUnF9rFnAaDBXdTNHHBs6a9pTyK@HellboyUX",
+            "user": "G4cD7Uo1K7KYQ7WSijnNNnFM2SaWmmTkpfwkeAA6DPn4ZZ1wiVWBuWrDVH3rLLiuGCDrYUnF9rFnAaDBXdTNHHBs6a9pTyK.10000@HellboyUX",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
