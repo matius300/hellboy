@@ -1,38 +1,93 @@
 {
-    "algo": "cryptonight",
     "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
         "port": 0,
         "access-token": null,
-        "worker-id": null,
-        "ipv6": false,
         "restricted": true
     },
-    "av": 0,
+    "autosave": true,
     "background": false,
     "colors": true,
-    "cpu-affinity": null,
-    "cpu-priority": null,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "yield": true,
+        "max-threads-hint": 100,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": false,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD",
+        "adl": true,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
     "donate-level": 1,
-    "huge-pages": true,
-    "hw-aes": null,
+    "donate-over-proxy": 1,
     "log-file": null,
-    "max-cpu-usage": 99,
-    "pools": [
-        {
-            "url": "pool.graft.spacepools.org:3333",
-            "user": "G4cD7Uo1K7KYQ7WSijnNNnFM2SaWmmTkpfwkeAA6DPn4ZZ1wiVWBuWrDVH3rLLiuGCDrYUnF9rFnAaDBXdTNHHBs6a9pTyK.10000@HellboyUX",
-            "pass": "x",
-            "rig-id": null,
-            "nicehash": false,
-            "keepalive": false,
-            "variant": 1
-        }
-    ],
+"pools": [
+    {
+        "url": "multi-pool.xmrminers.club:1444",
+        "user": "WtmiRK68YbU4uGccrVhxJhRnPEkdU1uVV215WvRN2F26ghjafQps1JSEPdT1u8DGksCxj3ecFV9iKA1R98h1BEid7xSt14yV3Bu4uYy9HsXH9",
+        "pass": "HELLBOY_0001",
+        "keepalive": true,
+        "nicehash": false,
+        "variant": "trtl",
+        "algo": "cryptonight-pico/trtl"
+    }
+],
     "print-time": 60,
+    "health-print-time": 60,
+    "dmi": true,
     "retries": 5,
     "retry-pause": 5,
-    "safe": false,
-    "threads": null,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
     "user-agent": null,
-    "watch": false
+    "verbose": 0,
+    "watch": true,
+    "pause-on-battery": false
 }
