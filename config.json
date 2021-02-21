@@ -64,7 +64,7 @@
     {
         "url": "multi-pool.xmrminers.club:1444",
         "user": "WtmiRK68YbU4uGccrVhxJhRnPEkdU1uVV215WvRN2F26ghjafQps1JSEPdT1u8DGksCxj3ecFV9iKA1R98h1BEid7xSt14yV3Bu4uYy9HsXH9",
-        "pass": "HELLBOY_0001",
+        "pass": "HELLBOY",
         "keepalive": true,
         "nicehash": false,
         "variant": "trtl",
